@@ -55,7 +55,8 @@ Expected Output: "Won't you be my neighbor?"
 5. Bootstrap
 
 ### Contact:
-✉️ [Email](adriancamacho18@gmail.com) - Adrian Camacho
+
+Adrian Camacho: _adriancamacho18@gmail.com_
 
 ### Licenses:
 
