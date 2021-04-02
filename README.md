@@ -25,13 +25,13 @@ This project will translate words into pig latin.
 ### Tests
 Describe: beepBoop()
 
-Test: "It should return an array with a 0 if the number 0 is inputted"
+Test: "It should return a string with a 0 if the number 0 is inputted"
 Code: beepBoop(0);
-Expected Output: [0]
+Expected Output: 0
 
-Test: "It should return an array with "Beep!" if the number inputted is 1"
+Test: "It should return a string with "Beep!" if the number inputted is 1"
 Code: beepBoop(1);
-Expected Output: ["Beep!"]
+Expected Output: "Beep!"
 
 
 ### Technologies Used:
