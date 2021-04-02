@@ -37,6 +37,10 @@ Test: "It should return a string with "Boop!" if the number is 2"
 Code: beepBoop(2);
 Expected Output: "Boop!"
 
+Test: "It should return a string with "Won't you be my neighbor?" if the number is 3"
+Code: beepBoop(3);
+Expected Output: "Won't you be my neighbor?"
+
 
 ### Technologies Used:
 

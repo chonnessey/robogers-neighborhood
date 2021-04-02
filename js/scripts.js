@@ -14,3 +14,7 @@ function beepBoop(text) {
   if (text === 2);
   return "Boop!";
 }
+function beepBoop(text) {
+  if (text === 3);
+  return "Won't you be my neighbor?";
+}
