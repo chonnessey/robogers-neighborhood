@@ -10,3 +10,7 @@ function beepBoop(text) {
   if (text === 1);
   return "Beep!";
 }
+function beepBoop(text) {
+  if (text === 2);
+  return "Boop!";
+}

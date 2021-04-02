@@ -33,6 +33,10 @@ Test: "It should return a string with "Beep!" if the number inputted is 1"
 Code: beepBoop(1);
 Expected Output: "Beep!"
 
+Test: "It should return a string with "Boop!" if the number is 2"
+Code: beepBoop(2);
+Expected Output: "Boop!"
+
 
 ### Technologies Used:
 
