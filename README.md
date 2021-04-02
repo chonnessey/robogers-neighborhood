@@ -17,9 +17,15 @@ This project will translate words into pig latin.
 
 ### Specs:
 
+* the function beepBoop will return arrays depending on the inputted value from the user.
+
+
 
 ### Tests
 Describe: beepBoop()
+Test: "It should return an array with a 0 if the number 0 is inputted"
+Code: beepBoop(0);
+Expected Output: [0]
 
 
 ### Technologies Used:
