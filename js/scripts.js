@@ -1,24 +1,19 @@
 // Business Logic
-const phraseArray = ["0", "Beep!", "Boop!", "Won't you be my neighbor?"];
-let inputtedString = ("");
+const phraseArray = ["Beep!", "Boop!", "Won't you be my neighbor?"];
+const numbersArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// numberArray.splice(0, 1, "Beep!")
+// console.log(numberArray);
+let inputtedArray = [];
 
 
 function beepBoop(text) {
-  if (text === 0); 
-    inputtedString = "0";
-}
-// function beepBoop(text) {
-//   if (text === 1);
-//   return "Beep!";
+//   if (text === 0); 
+//     return inputtedArray = [0];
 // }
-// function beepBoop(text) {
-//   if (text === 2);
-//   return "Boop!";
+//   for (let i = 0; i > phraseArray.length; i +=1) {
+//     inputtedArray.slice(phraseArray[i] +=1)
 // }
-// function beepBoop(text) {
-//   if (text === 3);
-//   return "Won't you be my neighbor?";
-// }
+
 
 // UI logic
 $(document).ready(function() {
