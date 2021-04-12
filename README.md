@@ -33,7 +33,7 @@ Test: "It should return an array with strings from 0 - inputted number"
 Code: beepBoop(5);
 Expected Output: ["0", "1", "2", "3", "4"]
 
-Test: "It should return a string with "Beep!" if the number inputted is 1"
+Test: "It should return an array replacing numbers that include "1" with "Beep!"
 Code: beepBoop(1);
 Expected Output: "Beep!"
 
