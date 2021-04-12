@@ -16,7 +16,7 @@ _This project will output messages if certain values are inputted by the user. I
 
 ### Bugs:
 
-_This project is still VERY MUCH in progress. I could not get the functionality to work today._
+_I have not figured out how to replace all digits with exceptions quite yet._
 
 
 ### Specs:
@@ -34,7 +34,7 @@ Code: beepBoop(5);
 Expected Output: ["0", "1", "2", "3", "4"]
 
 Test: "It should return an array replacing numbers that include "1" with "Beep!"
-Code: beepBoop(1);
+Code: beepBoop(5);
 Expected Output: "Beep!"
 
 Test: "It should return a string with "Boop!" if the number is 2"

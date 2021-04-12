@@ -1,7 +1,6 @@
 // Business Logic
 function beepBoop(number) {
   let userInputArray = [];
-  // let transFormedArray = [];
   for (let i = 0; i < number; i++) {
     userInputArray.push([i].toString()); {
       if ([i].toString().includes("1")) {
