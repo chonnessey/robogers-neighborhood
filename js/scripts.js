@@ -2,13 +2,14 @@
 function beepBoop(number) {
   let userInputArray = [];
   // let transFormedArray = [];
-  const beep = "Beep!";
-  const boop = "Boop!";
-  const neighbor = "Won't you be my neighbor?";
   for (let i = 0; i < number; i++) {
     userInputArray.push([i].toString()); {
       if ([i].toString().includes("1")) {
-        userInputArray
+        userInputArray.splice(1, 1, "Beep!")
+      } else if ([i].toString().includes("2")) {
+        userInputArray.splice(2, 1, "Boop!")
+      } else if ([i].toString().includes("3")) {
+        userInputArray.splice(3, 1, "Won't you be my neighbor?")
       }
     }
   }

@@ -29,7 +29,7 @@ _This project is still VERY MUCH in progress. I could not get the functionality 
 ### Tests
 Describe: beepBoop()
 
-Test: "It should return an array with strings from 0 - inputted number"
+Test: "It should return an array with strings from 0 - index of inputted number"
 Code: beepBoop(5);
 Expected Output: ["0", "1", "2", "3", "4"]
 
