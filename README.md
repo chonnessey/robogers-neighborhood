@@ -29,9 +29,9 @@ _This project is still VERY MUCH in progress. I could not get the functionality 
 ### Tests
 Describe: beepBoop()
 
-Test: "It should return a string with a 0 if the number 0 is inputted"
-Code: beepBoop(0);
-Expected Output: 0
+Test: "It should return an array with strings from 0 - inputted number"
+Code: beepBoop(5);
+Expected Output: ["0", "1", "2", "3", "4"]
 
 Test: "It should return a string with "Beep!" if the number inputted is 1"
 Code: beepBoop(1);
