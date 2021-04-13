@@ -1,14 +1,16 @@
 // Business Logic
 function beepBoop(number) {
   let userInputArray = [];
-  for (let i = 0; i < number; i++) {
+  for (let i = 0; i <= number; i ++) {
     userInputArray.push([i].toString()); {
-      if ([i].toString().includes("1")) {
-        userInputArray.splice(1, 1, "Beep!")
+      if ([i].toString().includes("3")) {
+        userInputArray.splice(i, 1, "Won't you be my neighbor?")
       } else if ([i].toString().includes("2")) {
-        userInputArray.splice(2, 1, "Boop!")
-      } else if ([i].toString().includes("3")) {
-        userInputArray.splice(3, 1, "Won't you be my neighbor?")
+        userInputArray.splice(i, 1, "Boop!")
+      } else if ([i].toString().includes("1")) {
+        userInputArray.splice(i, 1, "Beep!")
+      } else {
+        userInputArray[i]
       }
     }
   }
