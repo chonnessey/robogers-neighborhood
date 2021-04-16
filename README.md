@@ -16,12 +16,15 @@ _This project will output messages if certain values are inputted by the user. I
 
 ### Bugs:
 
-_I have not figured out how to replace all digits with exceptions quite yet._
+_No known bugs._
 
 
 ### Specs:
 
-* the function beepBoop will return arrays depending on the inputted value from the user.
+* The function beepBoop will return an array up to the inputted value from the user.
+* beepBoop will replace values that include the number 1 with "Beep!"
+* beepBoop will replace values that include the number 2 with "Boop!"
+* beepBoop will replace values that include the number 3 with "Won't you be my neighbor?"
 
 
 
@@ -31,19 +34,19 @@ Describe: beepBoop()
 
 Test: "It should return an array with strings from 0 - index of inputted number"
 Code: beepBoop(5);
-Expected Output: ["0", "1", "2", "3", "4"]
+Expected Output: ["0", "1", "2", "3", "4", "5"]
 
 Test: "It should return an array replacing numbers that include "1" with "Beep!"
 Code: beepBoop(5);
-Expected Output: "Beep!"
+Expected Output: ["0", "Beep!", "2", "3", "4", "5"]
 
-Test: "It should return a string with "Boop!" if the number is 2"
-Code: beepBoop(2);
-Expected Output: "Boop!"
+Test: "It should return an array replacing numbers that include "2" with "Boop!"
+Code: beepBoop(5);
+Expected Output: ["0", "1", "Boop!", "3", "4", "5"]
 
-Test: "It should return a string with "Won't you be my neighbor?" if the number is 3"
-Code: beepBoop(3);
-Expected Output: "Won't you be my neighbor?"
+Test: "It should return an array replacing numbers that include "3" with "won't you be my neighbor?"
+Code: beepBoop(5);
+Expected Output: ["0", "1", "2", "won't you be my neighbor?", "4", "5"]
 
 
 ### Technologies Used:
